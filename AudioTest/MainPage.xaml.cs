@@ -82,7 +82,7 @@ namespace AudioTest
                 // Cannot create device input node
                 System.Diagnostics.Debug.WriteLine(String.Format("Audio Device Input unavailable because {0}", deviceInputNodeResult.Status.ToString()));
 
-                return;
+                return; 
             }
 
             AudioDeviceInputNode deviceInputNode = deviceInputNodeResult.DeviceInputNode;
